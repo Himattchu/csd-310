@@ -1,0 +1,26 @@
+// no SQL Data Structure
+{
+	"user" :"user_1",
+	"roles": 
+	[
+		
+		{
+			"role1": "description"
+		},
+		{
+			"role2": "description"
+		},
+		{
+			"role3": "description"
+		},
+	]
+	"Birthday": "1/1/2024",
+	"dependants": 
+	[
+		{
+			"First": "",
+			"Last": "",
+			"Date of Birth":"",
+		},
+	]
+}
