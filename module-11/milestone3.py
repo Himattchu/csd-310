@@ -68,7 +68,7 @@ try:
     db.commit()
 
 except mysql.connector.Error as err:
-    if err.errno == errorcode.ER_ACCESS_DENIED_EERROR:
+    if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
         print(" The specified username or password are invalid")
 		 
     elif err.errno == errorcode.ER_BAD_DB_ERROR:
